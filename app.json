@@ -3,25 +3,24 @@
     "name": "SpaMobileV2",
     "slug": "SpaMobileV2",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./app/images/spa-logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#3CB371"
     },
+    "platforms": ["ios", "android"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./app/images/spa-logo.png",
+        "backgroundColor": "#3CB371"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./app/images/spa-logo.png"
     }
   }
 }
